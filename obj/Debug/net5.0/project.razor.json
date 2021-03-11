@@ -15603,6 +15603,11 @@
   "RootNamespace": "Bakery.RazorPages.Admin",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Pages\\Products\\Index.cshtml",
+      "TargetPath": "Pages\\Products\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"

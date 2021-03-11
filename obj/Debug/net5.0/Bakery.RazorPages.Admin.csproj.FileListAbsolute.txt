@@ -38,3 +38,7 @@ C:\Users\melm_\source\repos\SE_Labs\Bakery.RazorPages.Admin\obj\Debug\net5.0\ref
 C:\Users\melm_\source\repos\SE_Labs\Bakery.RazorPages.Admin\obj\Debug\net5.0\Bakery.RazorPages.Admin.pdb
 C:\Users\melm_\source\repos\SE_Labs\Bakery.RazorPages.Admin\obj\Debug\net5.0\Bakery.RazorPages.Admin.genruntimeconfig.cache
 C:\Users\melm_\source\repos\SE_Labs\Bakery.RazorPages.Admin\obj\Debug\net5.0\Bakery.RazorPages.Admin.csproj.CopyComplete
+C:\Users\melm_\source\repos\SE_Labs\Bakery.RazorPages.Admin\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\Users\melm_\source\repos\SE_Labs\Bakery.RazorPages.Admin\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\melm_\source\repos\SE_Labs\Bakery.RazorPages.Admin\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\melm_\source\repos\SE_Labs\Bakery.RazorPages.Admin\obj\Debug\net5.0\Razor\Pages\Products\Index.cshtml.g.cs

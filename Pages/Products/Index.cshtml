@@ -1,0 +1,46 @@
+﻿@page "{productId:int?}"
+@model Bakery.RazorPages.Admin.Pages.Products.IndexModel
+@{
+    ViewData["Title"] = "Admin Index";
+}
+
+<h1>Product Administration</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Description</th>
+            <th scope="col">Price</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model.Products)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Description</td>
+                <td>@($"{product.Price:C}")</td>
+                <td>
+                    <a asp-page="Edit" asp-route-id="@product.Id">Edit</a> |
+                    <a href="#" onclick="deleteProduct('@product.Id', antiForgeryToken())">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<span id="spanError" class="text-danger"></span><br />
+
+@section Scripts
+{
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script language="javascript">
+        const antiForgeryToken = () => '@Model.AntiforgeryToken';
+    </script>
+}
