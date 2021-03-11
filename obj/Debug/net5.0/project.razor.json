@@ -15623,6 +15623,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Pages\\Products\\Edit.cshtml",
+      "TargetPath": "Pages\\Products\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"
