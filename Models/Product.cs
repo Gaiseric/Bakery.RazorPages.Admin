@@ -14,5 +14,9 @@ namespace Bakery.RazorPages.Admin.Models
         
         [Range(0.01, 9999.99)]
         public decimal Price { get; set; }
+
+        [Required]
+        [Display(Name = "Picture file")]
+        public string ImageName { get; set; } 
     }
 }

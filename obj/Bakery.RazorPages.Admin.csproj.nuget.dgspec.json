@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Bakery.RazorPages.Admin.csproj": {}
+    "C:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Bakery.RazorPages.Admin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Bakery.RazorPages.Admin.csproj": {
+    "C:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Bakery.RazorPages.Admin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Bakery.RazorPages.Admin.csproj",
+        "projectUniqueName": "C:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Bakery.RazorPages.Admin.csproj",
         "projectName": "Bakery.RazorPages.Admin",
-        "projectPath": "C:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Bakery.RazorPages.Admin.csproj",
+        "projectPath": "C:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Bakery.RazorPages.Admin.csproj",
         "packagesPath": "C:\\Users\\melm_\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\obj\\",
+        "outputPath": "C:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uss374TqAtdJ99X2jE/08CbcWkg4opDSn1zKqf/St3MTKPDEK1kkK9bgD42tFrDBXklZj5WUORxlFua+6niu2g==",
+  "dgSpecHash": "gsLjOtMhXKg+y9S++kC5m0jP48A296XOrKOp/cqyv0PMcvwcOwjUnu+B6R0WRjg4zYDaS8lP5igh5US3r4/q8A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Bakery.RazorPages.Admin.csproj",
+  "projectFilePath": "C:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Bakery.RazorPages.Admin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\melm_\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\melm_\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

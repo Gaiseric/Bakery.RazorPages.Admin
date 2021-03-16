@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Bakery.RazorPages.Admin.csproj",
+  "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Bakery.RazorPages.Admin.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15603,53 +15603,53 @@
   "RootNamespace": "Bakery.RazorPages.Admin",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Pages\\Products\\Index.cshtml",
+      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Pages\\Products\\Index.cshtml",
       "TargetPath": "Pages\\Products\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Pages\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
+      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Pages\\_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Pages\\Products\\Edit.cshtml",
+      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Pages\\Products\\Edit.cshtml",
       "TargetPath": "Pages\\Products\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Pages\\Products\\Create.cshtml",
+      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Pages\\Products\\Create.cshtml",
       "TargetPath": "Pages\\Products\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs\\Bakery.RazorPages.Admin\\Pages\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

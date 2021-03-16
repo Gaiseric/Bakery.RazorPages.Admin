@@ -18,6 +18,7 @@
             <th scope="col">Name</th>
             <th scope="col">Description</th>
             <th scope="col">Price</th>
+            <th scope="col">Picture file</th>
             <th scope="col"></th>
         </tr>
     </thead>
@@ -28,6 +29,7 @@
                 <td>@product.Name</td>
                 <td>@product.Description</td>
                 <td>@($"{product.Price:C}")</td>
+                <td>@product.ImageName</td>
                 <td>
                     <a asp-page="Edit" asp-route-id="@product.Id">Edit</a> |
                     <a href="#" onclick="deleteProduct('@product.Id', antiForgeryToken())">Delete</a>
