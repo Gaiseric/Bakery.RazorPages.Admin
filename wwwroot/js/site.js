@@ -24,3 +24,26 @@ async function deleteProduct(productId, xCsrfToken) {
         });
     }
 }
+
+async function deleteOrder(orderId, xCsrfToken) {
+    if(confirm('Are you sure?')) {
+        await fetch(`Orders/Index/${orderId}`, {
+            method: 'delete',
+            headers: {
+                'X-CSRF-TOKEN': xCsrfToken
+            }
+        })
+        .then(function (response) {
+            if (response.status === 204) {
+                location.reload();
+            }
+            else {
+                throw `Unable to delete order. HTTP status code: ${response.status}`;
+            }
+        })
+        .catch((error) => {
+            document.getElementById('spanError').innerText = error;
+            console.log(`Order ID ${orderId}. ${error}`);
+        });
+    }
+}

@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -6,30 +8,30 @@ using Bakery.RazorPages.Admin.Services;
 using Bakery.RazorPages.Admin.Models;
 using Bakery.RazorPages.Admin.Extensions;
 
-namespace Bakery.RazorPages.Admin.Pages.Products
+namespace Bakery.RazorPages.Admin.Pages.Orders
 {
     public class IndexModel : PageModel
     {
-        private readonly ProductService _productService;
+        private readonly OrderService _orderService;
 
         public string AntiforgeryToken => HttpContext.GetAntiforgeryTokenForJs();
-        public IEnumerable<Product> Products { get; private set; } = new List<Product>();
+        public IEnumerable<Order> Orders { get; private set; } = new List<Order>();
 
-        public IndexModel(ProductService productService)
+        public IndexModel(OrderService orderService)
         {
-            _productService = productService;
+            _orderService = orderService;
         }
 
         public async Task OnGet()
         {
-            Products = await _productService.GetProducts();
+            Orders = await _orderService.GetOrders();
         }
     
-        public async Task<IActionResult> OnDelete(int productId)
+        public async Task<IActionResult> OnDelete(int orderId)
         {
             try
             {
-                await _productService.DeleteProduct(productId);
+                await _orderService.DeleteOrder(orderId);
                 return new NoContentResult();
             }
             catch

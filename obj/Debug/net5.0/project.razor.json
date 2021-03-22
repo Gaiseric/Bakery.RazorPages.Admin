@@ -15648,6 +15648,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Pages\\Orders\\Index.cshtml",
+      "TargetPath": "Pages\\Orders\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\melm_\\source\\repos\\SE_Labs_Pic\\Bakery.RazorPages.Admin\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"

@@ -32,6 +32,11 @@ namespace Bakery.RazorPages.Admin
                 config.DefaultRequestHeaders.Add("Accept", MediaTypeNames.Application.Json);
             });
 
+            services.AddHttpClient<OrderService>(config => {
+                config.BaseAddress = new Uri(Configuration["OrderService:BaseAddress"]);
+                config.DefaultRequestHeaders.Add("Accept", MediaTypeNames.Application.Json);
+            });
+
             services.AddAntiforgery(options => options.HeaderName = "X-CSRF-TOKEN");
         }
 
