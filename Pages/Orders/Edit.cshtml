@@ -1,0 +1,50 @@
+﻿@page "{id:int}"
+@model Bakery.RazorPages.Admin.Pages.Orders.EditModel
+@{
+    ViewData["Title"] = "Edit Order";
+}
+
+<h1>Edit Order</h1>
+
+<hr />
+
+<form method="post">
+    <input asp-for="Order.Id" type="hidden" />
+    <div class="form-group">
+        <label asp-for="Order.CustomerName" class="control-label"></label>
+        <input asp-for="Order.CustomerName" class="form-control" />
+        <span asp-validation-for="Order.CustomerName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Order.CustomerPhone" class="control-label"></label>
+        <input asp-for="Order.CustomerPhone" class="form-control" />
+        <span asp-validation-for="Order.CustomerPhone" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Order.OrderEmail" class="control-label"></label>
+        <input asp-for="Order.OrderEmail" class="form-control" />
+        <span asp-validation-for="Order.OrderEmail" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Order.OrderShipping" class="control-label"></label>
+        <input asp-for="Order.OrderShipping" class="form-control" />
+        <span asp-validation-for="Order.OrderShipping" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Order.OrderProduct" class="control-label"></label>
+        <input asp-for="Order.OrderProduct" class="form-control" />
+        <span asp-validation-for="Order.OrderProduct" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Order.OrderQuantity" class="control-label"></label>
+        <input asp-for="Order.OrderQuantity" class="form-control" />
+        <span asp-validation-for="Order.OrderQuantity" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Save" class="btn btn-primary" />
+    </div>
+</form>
+
+<div>
+    <a asp-page="/Orders/Index">Back to List</a>
+</div>

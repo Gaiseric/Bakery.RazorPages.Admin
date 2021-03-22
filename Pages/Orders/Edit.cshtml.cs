@@ -4,23 +4,23 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Bakery.RazorPages.Admin.Models;
 using Bakery.RazorPages.Admin.Services;
 
-namespace Bakery.RazorPages.Admin.Pages.Products
+namespace Bakery.RazorPages.Admin.Pages.Orders
 {
-    public class CreateModel : PageModel
+    public class EditModel : PageModel
     {
-        private readonly ProductService _productService;
+        private readonly OrderService _orderService;
 
         [BindProperty]
-        public Product Product { get; set; }
+        public Order Order { get; set; }
 
-        public CreateModel(ProductService productService)
+        public EditModel(OrderService orderService)
         {
-            _productService = productService;
+            _orderService = orderService;
         }
 
-        public IActionResult OnGet()
+        public async Task OnGet(int id)
         {
-            return Page();
+            Order = await _orderService.GetOrderById(id);
         }
 
         public async Task<IActionResult> OnPostAsync()
@@ -30,7 +30,7 @@ namespace Bakery.RazorPages.Admin.Pages.Products
                 return Page();
             }
 
-            await _productService.CreateProduct(Product);
+            await _orderService.UpdateOrder(Order);
 
             return RedirectToPage("Index");
         }
