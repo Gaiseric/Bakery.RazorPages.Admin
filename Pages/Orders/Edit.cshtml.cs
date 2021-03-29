@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
@@ -10,6 +12,10 @@ namespace Bakery.RazorPages.Admin.Pages.Orders
     {
         private readonly OrderService _orderService;
 
+        public SelectList Statuses { get; set; }
+
+        public List<string> status = new List<string>() {"NEW", "Processed", "Delivered", "Completed"};
+
         [BindProperty]
         public Order Order { get; set; }
 
@@ -21,6 +27,7 @@ namespace Bakery.RazorPages.Admin.Pages.Orders
         public async Task OnGet(int id)
         {
             Order = await _orderService.GetOrderById(id);
+            Statuses = new SelectList(status); 
         }
 
         public async Task<IActionResult> OnPostAsync()

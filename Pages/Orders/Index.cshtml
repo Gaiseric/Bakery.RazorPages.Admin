@@ -4,6 +4,8 @@
     ViewData["Title"] = "Admin Orders";
 }
 
+<meta http-equiv="Refresh" content="15" />
+
 <h1>Orders Administration</h1>
 
 <table class="table table-striped">
@@ -15,6 +17,7 @@
             <th scope="col">Shipping</th>
             <th scope="col">Product</th>
             <th scope="col">Quantity</th>
+            <th scope="col">Status</th>
             <th scope="col"></th>
         </tr>
     </thead>
@@ -28,6 +31,7 @@
                 <td>@order.OrderShipping</td>
                 <td>@order.OrderProduct</td>
                 <td>@order.OrderQuantity</td>
+                <td>@order.OrderStatus</td>
                 <td>
                     <a asp-page="Edit" asp-route-id="@order.Id">Edit</a> |
                     <a href="#" onclick="deleteOrder('@order.Id', antiForgeryToken())">Delete</a>

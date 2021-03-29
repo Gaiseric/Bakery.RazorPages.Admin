@@ -28,6 +28,11 @@ namespace Bakery.RazorPages.Admin.Models
 
         [Display(Name = "Quantity")]
         [Required]
+        [Range(1,100)]
         public int OrderQuantity { get; set; } = 1;
+
+        [Display(Name = "Status")]
+        [Required]
+        public string OrderStatus {get; set; }
     }
 }

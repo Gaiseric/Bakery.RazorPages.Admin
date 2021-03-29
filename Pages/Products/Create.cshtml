@@ -37,3 +37,7 @@
 <div>
     <a asp-page="/Products/Index">Back to List</a>
 </div>
+
+@section scripts{
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
