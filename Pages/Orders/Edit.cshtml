@@ -41,6 +41,12 @@
         <span asp-validation-for="Order.OrderQuantity" class="text-danger"></span>
     </div>
     <div class="form-group">
+        <label asp-for="Order.OrderStatus" class="control-label"></label><br>
+        <select asp-for="Order.OrderStatus" asp-items="Model.Statuses">
+        </select>
+        <span asp-validation-for="Order.OrderStatus" class="text-danger"></span>
+    </div>
+    <div class="form-group">
         <input type="submit" value="Save" class="btn btn-primary" />
     </div>
 </form>
@@ -48,3 +54,7 @@
 <div>
     <a asp-page="/Orders/Index">Back to List</a>
 </div>
+
+@section scripts{
+@{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
