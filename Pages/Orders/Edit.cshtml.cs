@@ -14,7 +14,7 @@ namespace Bakery.RazorPages.Admin.Pages.Orders
 
         public SelectList Statuses { get; set; }
 
-        public List<string> status = new List<string>() {"NEW", "Processed", "Delivered", "Completed"};
+        public List<string> status = new List<string>() {"NEW", "Processing", "Delivering", "Completed"};
 
         [BindProperty]
         public Order Order { get; set; }

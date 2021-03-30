@@ -14,10 +14,6 @@ namespace Bakery.RazorPages.Admin.Models
         [Phone, Required]
         public string CustomerPhone { get; set; }
 
-        [Display(Name = "Email")]
-        [EmailAddress, Required]
-        public string OrderEmail { get; set; }
-
         [Display(Name = "Shipping address")]
         [Required]
         public string OrderShipping { get; set; }
@@ -30,6 +26,11 @@ namespace Bakery.RazorPages.Admin.Models
         [Required]
         [Range(1,100)]
         public int OrderQuantity { get; set; } = 1;
+
+        [Display(Name = "Price")]
+        [Required]
+        [Range(0.01, 9999.99)]
+        public decimal OrderPrice { get; set; }
 
         [Display(Name = "Status")]
         [Required]
