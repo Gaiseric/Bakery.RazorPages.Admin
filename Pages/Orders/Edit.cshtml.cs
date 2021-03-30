@@ -28,6 +28,7 @@ namespace Bakery.RazorPages.Admin.Pages.Orders
         public async Task OnGet(int id)
         {
             Order = await _orderService.GetOrderById(id);
+            Statuses = new SelectList(status); 
         }
 
         public async Task<IActionResult> OnPostAsync()
