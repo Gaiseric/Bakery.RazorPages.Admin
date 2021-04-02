@@ -1,0 +1,27 @@
+﻿@page
+@model Bakery.RazorPages.Admin.Pages.Invoices.IndexModel
+@{
+    ViewData["Title"] = "Admin Invoices";
+}
+
+<h1>Invoices Administration</h1>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Date</th>
+            <th scope="col">Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var invoice in Model.Invoices)
+        {
+            <tr>
+                <td>@invoice.InvoiceDate</td>
+                <td>@($"{invoice.InvoicePrice:C}")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<span id="spanError" class="text-danger"></span><br />

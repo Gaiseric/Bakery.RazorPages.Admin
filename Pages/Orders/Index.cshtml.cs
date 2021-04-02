@@ -12,7 +12,6 @@ namespace Bakery.RazorPages.Admin.Pages.Orders
     {
         private readonly OrderService _orderService;
 
-        public string AntiforgeryToken => HttpContext.GetAntiforgeryTokenForJs();
         public IEnumerable<Order> Orders { get; private set; } = new List<Order>();
 
         public IndexModel(OrderService orderService)

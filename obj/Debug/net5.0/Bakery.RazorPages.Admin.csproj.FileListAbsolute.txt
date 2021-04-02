@@ -92,3 +92,5 @@ C:\Users\melm_\source\repos\SE_Labs_Pic\Bakery.RazorPages.Admin\obj\Debug\net5.0
 C:\Users\melm_\source\repos\SE_Labs_Pic\Bakery.RazorPages.Admin\obj\Debug\net5.0\Bakery.RazorPages.Admin.genruntimeconfig.cache
 C:\Users\melm_\source\repos\SE_Labs_Pic\Bakery.RazorPages.Admin\obj\Debug\net5.0\Razor\Pages\Orders\Index.cshtml.g.cs
 C:\Users\melm_\source\repos\SE_Labs_Pic\Bakery.RazorPages.Admin\obj\Debug\net5.0\Razor\Pages\Orders\Edit.cshtml.g.cs
+C:\Users\melm_\source\repos\SE_Labs_Pic\Bakery.RazorPages.Admin\obj\Debug\net5.0\Razor\Pages\Orders\Delete.cshtml.g.cs
+C:\Users\melm_\source\repos\SE_Labs_Pic\Bakery.RazorPages.Admin\obj\Debug\net5.0\Razor\Pages\Invoices\Index.cshtml.g.cs
